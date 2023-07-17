@@ -29,9 +29,6 @@ const SignIn = () => {
     }
   };
 
-  const handleLogout = async (event) => {
-    auth.signOut();
-  }
   return (
     <>
       <div style={{ textAlign: 'center', marginTop: 100 }}>
